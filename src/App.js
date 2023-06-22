@@ -1,7 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import BookAdd from './components/Book/BookAdd'
-import Book from './components/Book/Book'
+import BookList from './components/Book/BookList'
 
 import {
   BrowserRouter as Router,
@@ -15,7 +15,7 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<BookAdd/>}/>
-          <Route path='/books' element={<Book/>}/>
+          <Route path='/books' element={<BookList/>}/>
         </Routes>
 
       </Router>
